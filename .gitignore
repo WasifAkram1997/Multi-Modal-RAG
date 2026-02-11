@@ -1,0 +1,56 @@
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ChromaDB and Vector Databases
+db/
+*.db
+*.sqlite
+*.sqlite3
+chroma.sqlite3
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files and large data files (optional, uncomment if needed)
+# *.bin
+# *.pt
+# *.pth
+# *.onnx
+# *.h5
+# *.pkl
+# *.pickle
